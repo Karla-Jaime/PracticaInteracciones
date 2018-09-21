@@ -22,9 +22,9 @@
         <TextBlock FontSize="20" FontFamily="arial" Grid.Column="0" Grid.Row="0" Margin ="20,10,0,2" >Cuenta:</TextBlock>
         <TextBox Name="txtCuenta" Grid.Column="0" Grid.Row="1" Margin ="20,10,0,2" Width="200"></TextBox>
         <Slider ValueChanged="sldPorcentajePropina_ValueChanged" Name ="sldPorcentajePropina"
-                Grid.Row="2" Grid.Column="0" Margin ="20,10,0,2" Maximum="26"></Slider>
+                Grid.Row="2" Grid.Column="0" Margin ="20,10,0,2" Maximum="25"></Slider>
         <TextBlock Name="lblPorcentajePropina" FontFamily="arial" Grid.Row="2" Grid.Column="1" Margin ="20,10,0,2" Text="0%"></TextBlock>
         <TextBlock FontSize="18" FontFamily="arial" Grid.Column="0" Grid.Row="3" Margin ="20,10,0,2">Total con propina</TextBlock>
-        <TextBlock Name="lblTotalConPropina" FontSize="15" FontFamily="arial" Grid.Column="0" Grid.Row="4" Margin ="20,10,0,2">105,000</TextBlock>
+        <TextBlock Name="lblTotalConPropina" FontSize="15" FontFamily="arial" Grid.Column="0" Grid.Row="4" Margin ="20,10,0,2">$0.00</TextBlock>
     </Grid>
 </Window>
